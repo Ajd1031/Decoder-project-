@@ -66,7 +66,7 @@ const substitutionModule = (function () {
       }
     })
     return codedLetterArray.join("")
-   }
+   }m
   }
 
   return {

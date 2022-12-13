@@ -3,7 +3,7 @@
 // Only add code (helper methods, variables, etc.) within the scope
 // of the anonymous function on line 6
 
-const { start } = require("live-server");
+//const { start } = require("live-server");
 
 const caesarModule = (function () {
   //alphabet string that can be used to assign letters index numbers
@@ -71,6 +71,9 @@ let lookUp = "abcdefghijklmnopqrstuvwxyz";
         }
       }
     })
+    console.log('********************************************************')
+    console.log(codedMessage.join(""))
+    console.log('********************************************************')
     return codedMessage.join("");
   }
 
